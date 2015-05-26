@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game Scripts\AttachToSelf.cs">
+    <Files>
+      <File FileName="Assets\Game Scripts\AttachToSelf.cs" Line="19" Column="87" />
+      <File FileName="Assets\Game Scripts\Draw.cs" Line="83" Column="120" />
+      <File FileName="Assets\Game Scripts\DrawLine.cs" Line="73" Column="7" />
+      <File FileName="Assets\Game Scripts\SetUpJoint.cs" Line="4" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

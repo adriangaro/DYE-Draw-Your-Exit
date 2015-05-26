@@ -71,7 +71,6 @@ public class DrawLine : MonoBehaviour
 					if (float.IsNaN (angle)) {
 						angle = 0;
 					}
-					print (angle);
 					Quaternion rotation = Quaternion.identity;
 					rotation.eulerAngles = new Vector3 (0, 0, angle);
 					GameObject clone = (GameObject)Instantiate (obj);
