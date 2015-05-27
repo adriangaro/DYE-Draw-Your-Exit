@@ -52,6 +52,7 @@
      <Compile Include="Assets\Game Scripts\Draw.cs" />
      <Compile Include="Assets\Game Scripts\DrawLine.cs" />
      <Compile Include="Assets\Game Scripts\SetUpJoint.cs" />
+     <Compile Include="Assets\SpawnCubes.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

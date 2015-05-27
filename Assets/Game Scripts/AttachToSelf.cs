@@ -14,7 +14,7 @@ public class AttachToSelf : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter2D(Collider2D coll) {
-		if (coll.gameObject.tag == "Draw" && this.gameObject.tag == "Point") {
+		if (coll.gameObject.tag == "Draw" && this.gameObject.tag == "Point" && coll.gameObject.transform.parent.parent == null) {
 			coll.gameObject.transform.parent.transform.parent = this.gameObject.transform;
 			Destroy (coll.gameObject.transform.parent.gameObject.GetComponent<Rigidbody2D> ());
 		}

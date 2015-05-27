@@ -52,7 +52,7 @@ public class DrawLine : MonoBehaviour
 		// Drawing line when mouse is moving(presses)
 		if (isMousePressed) {
 			mouse = Input.mousePosition;
-			mouse.z = 10;
+			mouse.z = 20;
 			mousePos = Camera.main.ScreenToWorldPoint (mouse);
 			mousePos.z = 0;
 			if (pointsList.Count == 0) {
