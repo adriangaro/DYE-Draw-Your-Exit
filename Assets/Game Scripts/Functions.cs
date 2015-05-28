@@ -6,6 +6,11 @@ public class Functions : MonoBehaviour {
 	public GameObject Settings; 
 	public GameObject Starts;
 	public AudioSource Music;
+	void Awake()
+	{
+		//PlayerPrefs.SetString("maxLevel","level 1");
+		//PlayerPrefs.SetString("savedLevel","level 1");
+	}
 
 	void Start()
 	{
@@ -13,7 +18,7 @@ public class Functions : MonoBehaviour {
 		MainMenu.SetActive (true);
 		Starts.SetActive (false);
 		Music.Play ();
-		//	if(PlayerPrefs.SetInt("level "+i,0)=0);
+
 	}
 
 	void Update()
@@ -59,8 +64,6 @@ public class Functions : MonoBehaviour {
 	{
 		Application.Quit();
 	}
-
-	//this function should be added to the sound gameobject
 	public void OnOff(bool mute)
 	{
 		Music.mute =Music.mute ^ mute;
