@@ -68,4 +68,9 @@ public class Functions : MonoBehaviour {
 	{
 		Music.mute =Music.mute ^ mute;
 	}
+	public void Activate(GameObject c)
+	{
+		c.SetActive (!c.activeSelf);
+
+	}
 }

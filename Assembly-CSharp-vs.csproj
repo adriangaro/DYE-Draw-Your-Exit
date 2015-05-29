@@ -54,14 +54,15 @@
      <Compile Include="Assets\Game Scripts\InLevelFunctions.cs" />
      <Compile Include="Assets\Game Scripts\ItemView.cs" />
      <Compile Include="Assets\Game Scripts\LevelController.cs" />
+     <Compile Include="Assets\Game Scripts\Music.cs" />
      <Compile Include="Assets\Game Scripts\NextLevel.cs" />
      <None Include="Assets\Music\Sounds\Licence.txt" />
      <None Include="Assets\Music\Music Menu &amp; Levels\Licence.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/program files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>D:/program files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

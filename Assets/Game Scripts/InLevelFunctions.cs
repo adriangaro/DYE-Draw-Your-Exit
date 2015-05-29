@@ -6,6 +6,7 @@ public class InLevelFunctions : MonoBehaviour {
 	bool paused = false;
 	public GameObject UI;
 	public GameObject LevelGUI;
+	public AudioSource Music;
 
 	void Start()
 	{
@@ -52,5 +53,10 @@ public class InLevelFunctions : MonoBehaviour {
 	{
 		Time.timeScale = 0;
 		c.SetActive (true);
+	}
+
+	public void OnOff(bool mute)
+	{
+		Music.mute =Music.mute ^ mute;
 	}
 }

@@ -50,5 +50,10 @@ public class NextLevel : MonoBehaviour {
 			return 0;
 	}
 
+	public void Restart()
+	{
+		Application.LoadLevel (PlayerPrefs.GetString ("savedLevel"));
+		Time.timeScale = 1;
+	}
 
 }
