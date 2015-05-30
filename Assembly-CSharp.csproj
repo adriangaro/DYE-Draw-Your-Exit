@@ -46,23 +46,33 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Game Scripts\AttachToDrawing.cs" />
-     <Compile Include="Assets\Game Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Game Scripts\ChangeToDrawed.cs" />
-     <Compile Include="Assets\Game Scripts\DrawLine.cs" />
-     <Compile Include="Assets\Game Scripts\Functions.cs" />
-     <Compile Include="Assets\Game Scripts\InLevelFunctions.cs" />
-     <Compile Include="Assets\Game Scripts\ItemView.cs" />
-     <Compile Include="Assets\Game Scripts\LevelController.cs" />
-     <Compile Include="Assets\Game Scripts\Music.cs" />
-     <Compile Include="Assets\Game Scripts\NextLevel.cs" />
+     <Compile Include="Assets\Scripts\AttachToDrawing.cs" />
+     <Compile Include="Assets\Scripts\AttachToSelf.cs" />
+     <Compile Include="Assets\Scripts\ChangeToDrawed.cs" />
+     <Compile Include="Assets\Scripts\Destroyer 1.cs" />
+     <Compile Include="Assets\Scripts\Destroyer2.cs" />
+     <Compile Include="Assets\Scripts\Draw.cs" />
+     <Compile Include="Assets\Scripts\DrawLine.cs" />
+     <Compile Include="Assets\Scripts\Environment.cs" />
+     <Compile Include="Assets\Scripts\Environment2ToRest.cs" />
+     <Compile Include="Assets\Scripts\Finish.cs" />
+     <Compile Include="Assets\Scripts\Functions.cs" />
+     <Compile Include="Assets\Scripts\InLevelFunctions.cs" />
+     <Compile Include="Assets\Scripts\ItemView.cs" />
+     <Compile Include="Assets\Scripts\LevelController.cs" />
+     <Compile Include="Assets\Scripts\Music.cs" />
+     <Compile Include="Assets\Scripts\NextLevel.cs" />
+     <Compile Include="Assets\Scripts\Player1.cs" />
+     <Compile Include="Assets\Scripts\SetUpJoint.cs" />
+     <Compile Include="Assets\Scripts\TriggerNextLev1.cs" />
+     <Compile Include="Assets\TileTexture.cs" />
      <None Include="Assets\Music\Sounds\Licence.txt" />
      <None Include="Assets\Music\Music Menu &amp; Levels\Licence.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/program files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>D:/program files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
